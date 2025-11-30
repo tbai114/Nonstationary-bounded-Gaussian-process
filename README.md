@@ -1,11 +1,12 @@
 # Bound-constrained Nonstationary Gaussian Process
-Tian Bai
+### Tian Bai
 
-November 30, 2025
+### November 30, 2025
 
 This GitHub repository is the source code of the papaer **Bound-constrained Nonstationary
 Gaussian Process
 Regression for Ventilated Cavitation Prediction** by Tian Bai, Kuangqi Chen, and Dianpeng Wang, which is submitted to RESS.
+
 This code allows the estimation and prediction for the Bound-constrained Nonstationary Gaussian Process (nbGP) model.
 
 The paper and R package will be available soon.
@@ -40,7 +41,7 @@ sample_truncated_mixture <- function(n, mu, sigma, l = -Inf, u = Inf)
 - n: sample size;
 - mu: predictive mean of $\mathbf{x}$;
 - sigma: predictive standard variation of $\mathbf{x}$;
-- l: lower bound at $\mathbf(x)$;
+- l: lower bound at $\mathbf{x}$;
 - u: upper bound at $\mathbf{x}$;
 - Return: samples, the $1\times n$ samples from the truncated distribution for $\mathbf{x}$.
 
