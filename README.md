@@ -1,15 +1,16 @@
 # Bound-constrained Nonstationary Gaussian Process
 ### Tian Bai
 
-### November 30, 2025
+### January 21, 2026
 
 This GitHub repository is the source code of the papaer **Bound-constrained Nonstationary
 Gaussian Process
-Regression for Ventilated Cavitation Prediction** by Tian Bai, Kuangqi Chen, and Dianpeng Wang, which is submitted to RESS.
+Regression for Ventilated Cavitation Prediction** by Tian Bai, Kuangqi Chen, and Dianpeng Wang, which is online published in RESS.
 
 This code allows the estimation and prediction for the Bound-constrained Nonstationary Gaussian Process (nbGP) model.
 
-The paper and R package will be available soon.
+**The paper is now available on**
+https://www.sciencedirect.com/science/article/pii/S0951832026000384
 
 The main function are built from R package `GPcluster` by Chih-Li Sung, and the details could be found in
 https://github.com/ChihLi/GPcluster.
@@ -123,11 +124,16 @@ M_star<-nbGP.fit$M_star
 ## Citation
 If you find our work helpful, feel free to give us a cite.
 ```
-@misc{nbGP,
-    title  = {Bound-constrained Nonstationary Gaussian Process Regression for Ventilated Cavitation Prediction},
-    url    = {https://github.com/tbai114/Nonstationary-bounded-Gaussian-process},
-    author = {Tian Bai, Kuangqi Chen, Dianpeng Wang},
-    year   = {2025}
+@article{BAI2026112222,
+title = {Bound-constrained nonstationary Gaussian process regression for ventilated cavitation prediction},
+journal = {Reliability Engineering \& System Safety},
+volume = {271},
+pages = {112222},
+year = {2026},
+issn = {0951-8320},
+doi = {https://doi.org/10.1016/j.ress.2026.112222},
+url = {https://www.sciencedirect.com/science/article/pii/S0951832026000384},
+author = {Tian Bai and Kuangqi Chen and Dianpeng Wang},
 }
 ```
 
